@@ -1,0 +1,35 @@
+.title {
+    display: flex;
+    justify-content: center;
+}
+
+/* Acá hago que el contenedor sea flex para acomodar los elementos y sean centrados */
+.flex-container {
+    display: flex;
+    background-color: rgb(226, 226, 226);
+    justify-content: center;
+    align-items: center;
+    
+  }
+
+  /* Acá le doy position relative al marco ya que va de la mano con position absolute, para luego posicionar el elemento .numerofoto con referencia al marco */
+  .marcofoto {
+    
+    width: 300px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    background-color: white;
+    position: relative;
+  }
+
+.numerofoto {
+    color: gray;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+
+.titulofoto {
+  height: 30px;
+}
